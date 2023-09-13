@@ -3,11 +3,11 @@ package main
 import (
 	"fmt"
 
-	"github.com/paulojosecb/go-algorithms/sort"
+	"github.com/paulojosecb/go-algorithms/recursion"
 )
 
 func main() {
-	testArr := []int{4, 2, 1, 42, 5}
+	testArr := []int{1, 2, 3, 4, 5}
 
-	fmt.Print(sort.SelectSort(testArr))
+	fmt.Print(recursion.Sum(testArr))
 }

@@ -9,5 +9,5 @@ import (
 func main() {
 	testArr := []int{1, 2, 3, 4, 5}
 
-	fmt.Print(recursion.Sum(testArr))
+	fmt.Print(recursion.Len(testArr))
 }

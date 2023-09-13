@@ -3,11 +3,11 @@ package main
 import (
 	"fmt"
 
-	"github.com/paulojosecb/go-algorithms/recursion"
+	"github.com/paulojosecb/go-algorithms/sort"
 )
 
 func main() {
-	testArr := []int{1, 2, 13, 4, 5}
+	testArr := []int{5, 423, 31, 3, 1, 53}
 
-	fmt.Print(recursion.Max(testArr))
+	fmt.Print(sort.QuickSort(testArr))
 }

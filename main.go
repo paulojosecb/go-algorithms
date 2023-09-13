@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	testArr := []int{1, 2, 3, 4, 5}
+	testArr := []int{1, 2, 13, 4, 5}
 
-	fmt.Print(recursion.Len(testArr))
+	fmt.Print(recursion.Max(testArr))
 }
